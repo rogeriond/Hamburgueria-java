@@ -4,6 +4,7 @@ public class Hamburgueria {
     public static void main(String[] args) {
 
         String tipoLanche = "";
+        double preco = 0.0;
 
         try (Scanner leitor = new Scanner(System.in)) {
 
@@ -15,8 +16,6 @@ public class Hamburgueria {
                     System.out.println("Volte sempre!");
                     break;
                 } else {
-
-                    double preco;
 
                     // Validação exata de cada lanche do cardápio
                     if (tipoLanche.equalsIgnoreCase("X-burger")) {
